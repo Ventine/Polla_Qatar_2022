@@ -103,7 +103,7 @@ $lista1=$sentenciaSQL1->fetchAll(PDO::FETCH_ASSOC);
       <div class="a-box">
         <?php foreach($lista as $list){ ?>
         <div class="text-container">
-          <h3>Polla VENTINE</h3>
+          <h3>PREDICCIONES</h3>
           <div class="div__contain">
             <span>Nombre:</span>
             <h2><?php echo $list['nombre'];?></h2>
