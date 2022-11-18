@@ -153,7 +153,7 @@ echo '<script language="javascript">alert("Error imprimir");</script>';
 }
     if (isset($_POST['Salir'])) {
     try {
-    header('location: https://formfit.com.co');
+    header('location: WWW.GOOGLE.COM');
     session_destroy();
     } catch (Exception $e) {
     echo '<script language="javascript">alert("Error salir");</script>';
