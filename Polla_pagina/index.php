@@ -5,15 +5,16 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon1.png">
+		  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		<link rel="stylesheet" href="css/styles .css">
-		<title>Polla futbolera Formfit S.A</title>
+		<title>Polla futbolera VENTINE</title>
 	</head>
 	<body>
 	 <form method="POST">
 		<div class="container">
 			<div class="container__headboard">
 				<img src="img/logoBird.png" alt="Logo Qatar" class="container__headboard__img">
-				<h2 class="container__headboard__h">POLLA MUNDIALISTA FORMIT ROGERS</h2>
+				<h2 class="container__headboard__h">POLLA MUNDIALISTA VENTINE</h2>
 			</div>
 			<div class="container__title__prediction">
 				<h2 class="container__title__prediction__h">Ingresa tus pronosticos de la fase de grupos</h2>

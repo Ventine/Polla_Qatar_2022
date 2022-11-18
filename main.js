@@ -1,36 +1,12 @@
-/*const firstName = document.querySelector('#firstNameInput');
-const invoice = document.querySelector('#invoiceInput');
-const password = document.querySelector('#passInput');
 
-const firstNameError = document.querySelector('#firstNameError');
-const invoiceError = document.querySelector('#invoiceError');
-const passError = document.querySelector('#passError');
+const a_click = document.querySelector('.a_click');
 
-const Comenzar = document.querySelector('#Comenzar');
+a_click.addEventListener('click', (event)=>{
+    swal({
+      title: "Terminos y condiciones",
+      text: "Polla Mundialista VENTINE   1. Ingresa tus datos personales 2. Ingresa el número de factura de tu última compra 3. Coloca los resultados de los partidos del mundial de fútbol Qatar 2022  4. Primer puesto: Campeón, subcampeón, tercero y cuarto puesto ganas un cupón de $300.000. Segundo puesto: Campeón y subcampeón ganas un cupón de $150.000. Tercer puesto: Campeón ganas un cupón de $100.000. *Si hay empate, ganará la persona qué tenga el mayor número de aciertos de los partidos del mundial de fútbol Qatar 2022. *Los cupones son virtuales, se canjean en la página web www.VENTINE.com.co",
+      icon: "success",
+      button: "Entendido",
+    });
 
-Comenzar.addEventListener('click', (event)=>{
-    event.preventDefault();
-    validateEmpty(firstName.value, firstName, firstNameError, 'nombre');
-    validateEmpty(invoice.value, invoice, invoiceError, 'factura');
-    validateEmpty(password.value, password, passError, 'telefono');
 });
-
-
-function validateEmpty(valueInput, divInput, divError, nameInput){
-    if(valueInput.length == 0){
-        showError(divInput, divError, `No puede estar vacío tu ${nameInput}`);
-    }else{
-        hideError(divInput, divError);
-    }
-}
-
-function showError(divInput, divError, error){
-    divInput.style.border = ' 1px solid red';
-    divError.innerHTML = `<img class="icon-error" src="./images/icon-error.svg" alt="">
-    <p class="error">${error}</p>`
-}
-
-function hideError(divInput, divError){
-    divInput.style.border = ' 1px solid hsl(246, 25%, 77%)';
-    divError.innerHTML = ``
-}*/

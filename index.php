@@ -7,18 +7,18 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon1.png">
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="./styles.css">
-  <title>Login Polla futbolera Formfit S.A</title>
+  <title>Polla VENTINE</title>
 </head>
 <body>
 
   <div class="main-container">
     <section>
-      <h1>Gana grandes premios jugando la polla futbolera</h1>
-      <p class="description" style="margin-bottom: 12px !important;">Ingresa tus datos personales, acierta a los resultados de los partidos del mundial de futbol Qatar 2022 y diviertete en la polla futbolera Formfit Rogers. </p>
+      <h1>Gana jugando la polla futbolera empresarial</h1>
+      <p class="description" style="margin-bottom: 12px !important;">Ingresa tus datos personales, acierta a los resultados de los partidos del mundial de futbol Qatar 2022. </p>
     </section>
 
     <section>
-      <div class="offer"><span>Formfit de Colombia</span> Ingresa los datos</div>
+      <div class="offer"><span>VENTINE</span> </div>
       <div class="form-container">
 
         <form method="POST">
@@ -38,11 +38,11 @@
           <input id="Comenzar" type="submit" name="Comenzar" value="Comenzar">
 
         </form>
-        <p class="terms">Nuestros <a href="" onClick="alert('Polla Mundialista Formfit Rogers  1. Ingresa tus datos personales 2. Ingresa el número de factura de tu última compra 3. Coloca los resultados de los partidos del mundial de fútbol Qatar 2022  4. Gana el que escoga el campeon, los item de desempate son subcampeon, tercero y cuarto.')">Instrucciones y condiciones del servicio</a></p>
+        <p class="terms">Nuestros <a class="a_click" style="cursor: pointer;" >Instrucciones y condiciones del servicio</a></p>
       </div>
     </section>
   </div>
 
-  <script src="./main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html> 
